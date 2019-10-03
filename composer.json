@@ -1,0 +1,24 @@
+{
+    "name": "joangj/normalization",
+    "description": "Code test - middlewares and normalization",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joan Gjermeni",
+            "email": "joan.gjermeni@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "^2.0",
+        "zendframework/zend-diactoros": "^2.1",
+        "middlewares/fast-route": "^1.2",
+        "middlewares/request-handler": "^1.4",
+        "narrowspark/http-emitter": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestApp\\": "src/"
+        }
+    }
+}
